@@ -1,0 +1,41 @@
+﻿@model Demo.BL.Models.DepartmentVM
+@{
+    ViewBag.Title = "Home";
+}
+
+<h2>Create</h2>
+
+<form class="form-group" asp-controller="Department" asp-action="Create">
+
+    <div asp-validation-summary="All" class="text-danger"></div>
+    @* بستخدمو لو عايز كل الايرورز تظهرلى فوقت تحت بعض كدا *@
+
+
+
+    <label for="Name">Department Name</label>
+    <input type="text" class="form-control" asp-for="Name" />
+    @*asp-for==> دا الى هخزن فيه القيمه الى داخله  DepartmentVM ف ال Name اسمو  columnدي فايدتها اني بقول ان انا عندى *@
+    @*فوق @model Demo.BL.Models.DepartmentVM عشان استخدمو لازم انادي على  *@
+    <span asp-validation-for="Name" class="text-danger"></span>
+    @*asp-validation-for  الى عندى ف دا الى بستخدمو عشان اظهرهم  attributeعلى ال validations شويه  departmentVM انا عامل ف ال  *@
+    <br />
+
+
+    <label for="Code">Department Code</label>
+    <input type="text" class="form-control" id="Code" asp-for="Code" />
+    <span asp-validation-for="Code" class="text-danger"></span>
+    <br />
+
+    <center>
+        <input type="submit" value="Save" class="btn btn-primary" />
+        <input type="reset" value="Cancle" class="btn btn-danger" />
+    </center>
+
+</form>
+
+
+@* وانا مثلا دور على زرار يحفظ داتا كدا يعني refresh دول انا بتسخدمهم عشان الصفحه متعملش  *@
+@section MicrosoftValidation{
+    <script src="~/plugins/jquery-validation/jquery.validate.js"></script>
+    <script src="~/plugins/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

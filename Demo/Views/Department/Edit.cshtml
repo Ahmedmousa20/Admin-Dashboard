@@ -1,0 +1,37 @@
+﻿@model Demo.BL.Models.DepartmentVM
+@{
+    ViewBag.Title = "Update";
+}
+
+<h2>Edit</h2>
+<br />
+<form asp-controller="Department" asp-action="Edit">
+    <input type="hidden" class="form-control" asp-for="Id" disabled />
+    <br />
+
+    <label for="Name">Department Name</label>
+    <input type="text" class="form-control" asp-for="Name" />
+    <span asp-validation-for="Name" class="text-danger"></span>
+    <br />
+
+
+    <label for="Code">Department Code</label>
+    <input type="text" class="form-control" id="Code" asp-for="Code" />
+    <span asp-validation-for="Code" class="text-danger"></span>
+    <br />
+
+    <center>
+        <a asp-controller="Department" asp-action="Index" class="btn btn-primary">Back To Data</a>
+        <a asp-controller="Department" asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger">Delete</a>
+        @*asp-route-id دا انا بكتبو عشان لو عايز ابعت براميتر لفانكشن وانا بدوس على زرار او لينك  *@
+        <input type="submit" value="Edit" class="btn btn-success" />
+    </center>
+
+</form>
+
+
+
+@section MicrosoftValidation{
+    <script src="~/plugins/jquery-validation/jquery.validate.js"></script>
+    <script src="~/plugins/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

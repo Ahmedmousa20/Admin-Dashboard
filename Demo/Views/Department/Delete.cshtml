@@ -1,0 +1,28 @@
+﻿@model Demo.BL.Models.DepartmentVM
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Delete</h2>
+<br />
+
+<form asp-controller="Department" asp-action="Delete">
+    <label for="Id">Department Name</label>
+    <input type="text" class="form-control" asp-for="Id" disabled />
+    <br />
+
+    <label for="Name">Department Code</label>
+    <input type="text" class="form-control" id="Code" asp-for="Name" disabled />
+    <br />
+
+    <label for="Code">Department Code</label>
+    <input type="text" class="form-control" id="Code" asp-for="Code" disabled />
+    <br />
+
+    <center>
+        <a asp-controller="Department" asp-action="Index" class="btn btn-primary">Back To Data</a>
+        <a asp-controller="Department" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Update</a>
+        <input type="submit" value="Delete" class="btn btn-success" />
+    </center>
+
+</form>
