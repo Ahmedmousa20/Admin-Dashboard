@@ -1,2 +1,2 @@
-# Proof-Of-Concept
-POC Project
+#Admin Dashboard
+Proof of Concept Project
