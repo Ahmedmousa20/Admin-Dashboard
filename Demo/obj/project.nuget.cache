@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vXoMerKK6LDpJxclA+/7UAccF9JufDVPowB4YPAPqAahxSU8rerrmhS2Bjgmr2IHJWO5XtsLftkE/MF5KJTqmg==",
+  "dgSpecHash": "11mxqgaZyY668lnwoFcZAegST04IY8mphB9oVx33UZ0hPHTDPU+o4TuzElsu53YpPmDCCOKXO83wkRad5Tq/jw==",
   "success": true,
-  "projectFilePath": "E:\\FCAIH\\course\\eng ahmed elgendy\\.net core\\Session10_Core\\Demo\\Demo.csproj",
+  "projectFilePath": "C:\\Users\\g\\Documents\\my-github\\Proof-Of-Concept\\Demo\\Demo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\g\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\g\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

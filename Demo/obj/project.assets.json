@@ -7422,11 +7422,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\FCAIH\\course\\eng ahmed elgendy\\.net core\\Session10_Core\\Demo\\Demo.csproj",
+      "projectUniqueName": "C:\\Users\\g\\Documents\\my-github\\Proof-Of-Concept\\Demo\\Demo.csproj",
       "projectName": "Demo",
-      "projectPath": "E:\\FCAIH\\course\\eng ahmed elgendy\\.net core\\Session10_Core\\Demo\\Demo.csproj",
+      "projectPath": "C:\\Users\\g\\Documents\\my-github\\Proof-Of-Concept\\Demo\\Demo.csproj",
       "packagesPath": "C:\\Users\\g\\.nuget\\packages\\",
-      "outputPath": "E:\\FCAIH\\course\\eng ahmed elgendy\\.net core\\Session10_Core\\Demo\\obj\\",
+      "outputPath": "C:\\Users\\g\\Documents\\my-github\\Proof-Of-Concept\\Demo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\g\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7443,8 +7443,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\FCAIH\\course\\eng ahmed elgendy\\.net core\\Session10_Core\\Demo.BL\\Demo.BL.csproj": {
-              "projectPath": "E:\\FCAIH\\course\\eng ahmed elgendy\\.net core\\Session10_Core\\Demo.BL\\Demo.BL.csproj"
+            "C:\\Users\\g\\Documents\\my-github\\Proof-Of-Concept\\Demo.BL\\Demo.BL.csproj": {
+              "projectPath": "C:\\Users\\g\\Documents\\my-github\\Proof-Of-Concept\\Demo.BL\\Demo.BL.csproj"
             }
           }
         }

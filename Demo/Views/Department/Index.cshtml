@@ -1,5 +1,4 @@
 ﻿@model IEnumerable<Demo.BL.Models.DepartmentVM>
-@*دا بستخدمو لما اكون هجي بيانات كلاس مثلا برا الفولدر بتاعي فبقولو انا هجيب ايمبلويي موديل*@
 @{
     ViewBag.Title = "Department";
 }
@@ -20,12 +19,11 @@
 <div class="block-header">
     <a>Home / Department / Department Card </a>
 </div>
-@* دى بستخدمها عشان الديزاي وكدا وعشان يعرف الصفحه دى جايه منين وكدا *@
+
 
 
 
 <a asp-controller="Department" asp-action="Create" class="btn btn-primary">Create New Department</a>
-@*get وكذلك الفانكشن الى هناك تلقائيا من نوع  get دا من نوع  a الى بترجع الصفحه مش الى بتضيف بيانات لان ال  Create هنا هيفهم انو رايح لل *@
 
 
 <table class="table table-striped table-hover table-bordered text-center font-weight-bold">
@@ -41,7 +39,7 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model)@*Model--> employeesالى انا جايبها الى فيها مجموعه من ال listدى المفروض بتعبر  عن ال*@
+        @foreach (var item in Model)
         {
         <tr>
             <td>@item.Id</td>
@@ -50,10 +48,7 @@
             <td> <a asp-controller="Department" asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">Details </a></td>
             <td> <a asp-controller="Department" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">Update</a> </td>
             <td> <a asp-controller="Department" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a> </td>
-            @* المفروض دلوقتي ان اللينك دا ؤايح لفانكشن معينه الفانكشن دى بتاخد براميتر ف هبعتو ازاي؟ *@
-            @*عشان ابعتلها البراميتر بتاعها   asp-route-ParameterName بستخدم *@
-            @*capital or small وبكتب اسم البراميتر الى انا كاتبو ف الفانكشن بعد اخر شرطه وبكتبو بنفس الحروف سواء   *@
-
+           
 
         </tr>
 
