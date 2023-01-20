@@ -1,5 +1,5 @@
-# Proof-Of-Concept
-- An Admin DashBoard ,Admin can Show/Udate/Delete/add Employess an there Departments and Send mails to Employees
+# Proof-Of-Concept (ASP Core MVC)
+- An Admin DashBoard ,Admin can See/Udate/Delete/add Employess an there Departments and Send mails to Employees
 Used Techniques:
 
 • MVC CRUD Operations Using EF Core
